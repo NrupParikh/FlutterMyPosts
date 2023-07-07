@@ -7,6 +7,14 @@
  
 - Fetch post and display on UI
 
+|             #1 No Network             |             #2 With Network           |
+|:-------------------------------------:|:-------------------------------------:|
+| <img src="https://github.com/NrupParikh/FlutterMyPosts/assets/108717119/57cdb30d-e395-455c-b21b-a5378bb0c903" width="60%" height="80%" /> |<img src="https://github.com/NrupParikh/FlutterMyPosts/assets/108717119/00d828da-75f9-43ea-ba6b-9f6e321d1ba8" width="60%" height="80%" /> |
+ 
+
+
+
+
 ### Dependencies
 ----
 
