@@ -55,7 +55,10 @@ class _HomeScreenState extends State<HomeScreen> {
         PostModel post = posts[index];
 
         return ListTile(
-          title: Text(post.title.toString()),
+          title: Text(
+            post.title.toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
           subtitle: Text(post.body.toString()),
         );
       },
