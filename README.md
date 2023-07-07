@@ -7,18 +7,44 @@
  
 - Fetch post and display on UI
 
+|             #1 No Network             |             #2 With Network           |
+|:-------------------------------------:|:-------------------------------------:|
+| <img src="https://github.com/NrupParikh/FlutterMyPosts/assets/108717119/57cdb30d-e395-455c-b21b-a5378bb0c903" width="60%" height="80%" /> |<img src="https://github.com/NrupParikh/FlutterMyPosts/assets/108717119/00d828da-75f9-43ea-ba6b-9f6e321d1ba8" width="60%" height="80%" /> |
+ 
+
+
+
+
 ### Dependencies
 ----
 
-- flutter_block : For BLoc pattern
-- dio : For network calling
+- flutter_block
+  - Widgets that make it easy to integrate blocs and cubits into Flutter
+- dio
+  - A powerful HTTP client for Dart/Flutter, which supports global configuration, interceptors, FormData, request cancellation, file uploading/downloading, timeout, and custom adapters etc.
+- pretty_dio_logger
+  - Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format.
 
 ### Project Structure
 ----
-
-- Data : Models
+````
+- Data
+  - models
+    - post_model.dart
+  - repository
+    - api
+      - api.dart
+    - post_repository.dart
 - Logic
-- Presentation : Screens
+  - cubits
+    - post_cubits
+      - post_cubits.dart
+      - post_state.dart
+- Presentation
+  - home_screen.dart
+- main.dart
+
+````
 
 ### References
 ----
@@ -31,3 +57,6 @@
 
 #### **API Calling using dio**
 - https://pub.dev/packages/dio
+
+#### ** JSON to Dart POJO **
+- https://javiercbk.github.io/json_to_dart/
