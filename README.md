@@ -23,11 +23,11 @@
 ### References
 ----
 
-- **Getting data for post**
+#### **Getting data for post**
 - https://jsonplaceholder.typicode.com/posts
 
-- **Block Pattern**
+#### **Block Pattern**
 - https://pub.dev/packages/flutter_bloc
 
-- **API Calling using dio**
+#### **API Calling using dio**
 - https://pub.dev/packages/dio
