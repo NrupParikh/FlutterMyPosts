@@ -55,5 +55,5 @@
 #### **API Calling using dio**
 - https://pub.dev/packages/dio
 
-#### **JSON to Dart POJO **
+#### **JSON to Dart POJO**
 - https://javiercbk.github.io/json_to_dart/
